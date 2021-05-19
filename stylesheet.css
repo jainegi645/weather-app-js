@@ -1,0 +1,31 @@
+body{
+    background-color:lightblue;
+    
+  }
+  form {
+    width:300px;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    
+  }
+  .app{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%); 
+  }
+  .logo{
+    width:300px;
+    height:300px;
+  }
+  .search-input{
+    height:30px;
+    margin-top:40px;
+  }
+  .result-section{
+    min-width:40%;
+    font-size: 2em;
+    margin-top: 2em;
+    text-align: center;
+  }
